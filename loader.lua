@@ -1,4 +1,3 @@
-wait("0.2")
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Players = game:GetService("Players")
@@ -35,7 +34,7 @@ local Window = Rayfield:CreateWindow({
       Note = "Get your key by going to our discord.",
       FileName = "Key",
       SaveKey = true,
-      GrabKeyFromSite = true,
+      GrabKeyFromSite = false,
       Key = {"/u1kbdwI33TBPnDaOF5/R8DFV1vSKFouhsaGQB9YE8M=","Wk2cm4LNbKLRVOlhdQwyOrXS3Cz6Oo6yQuM6IX3nTCE="}
 })
 
