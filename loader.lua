@@ -32,11 +32,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Waiting for Key...",
       Subtitle = "Key System",
-      Note = "Get your key by going to our discord.", -- Use this to tell the user how to get a key
-      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin.com/raw/9Jk7wcGn"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Note = "Get your key by going to our discord.",
+      FileName = "Key",
+      SaveKey = true,
+      GrabKeyFromSite = true,
+      Key = {"/u1kbdwI33TBPnDaOF5/R8DFV1vSKFouhsaGQB9YE8M=","Wk2cm4LNbKLRVOlhdQwyOrXS3Cz6Oo6yQuM6IX3nTCE="}
 })
 
 -- Tabs & Sections
